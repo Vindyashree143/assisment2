@@ -1,16 +1,118 @@
 
-.button{
-	background-color: red;
-	border: 2px solid red;
-  padding: 10px;
-  border-radius: 40px;
-      margin-right: 268px;
-      margin-left: 584px;
+.item1{
+  position: relative;
+  text-align: center;
+  color: white;
 }
-.best{
-	margin-top: 90px;
+
+#nav{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+ /*.item1{
+ background-image: url("./image/iimg.jpg");
+  background-color: #cccccc;
+  }*/
+  #logo{
+  position: absolute;
+  top: 8px;
+  left: -850px;
+  font-size: 30px;
+}
+#h1{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+}
+#homep{
+  position: absolute;
+  top: 27%;
+  left: 37%;
+  /*transform: translate(-50%, -50%);*/
 
 }
-.fakeimg{
-	grid-gap: 1000px;
+#getstart{
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid red;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: red;
 }
+#grid{
+display: grid;
+}
+#item2{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#about{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  padding-right: 151px;
+}
+#getstart1{
+  border: 3px solid red;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: red;
+
+}
+#color{
+color:red;
+/*margin-top: 300px;*/
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 20px;
+}
+#about{
+  background-color: red;
+  height: 500px;
+    width: 390px;
+    margin-right: 214px;
+    margin-top: 600px;
+}
+#col{
+  color: red;
+}
+#table{
+  font-size: 25px;
+}
+#grid2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color:white;
+  padding: 10px;
+}
+#person{
+  border-radius: 800px;
+  /*background: #73AD21;
+  padding: 20px;*/
+  width: 50px;
+  height: 55px;
+  margin-left: 573px;
+}
+
+/*#v1{
+  margin-left: 561px;
+     padding-bottom: 500px; */
+   /*padding-bottom: 150px;
+}*/
+/*#p1{
+  margin-left: 561px;
+     margin-bottom: 187px; 
+   /* margin-top: -447px;
+   margin-top: -10px;
+
+}*
